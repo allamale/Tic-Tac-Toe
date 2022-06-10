@@ -104,8 +104,6 @@ class BoardClass:
         self.gamesplayed += 1
 
 
-    #Required Functions for the Game
-
     def updateGamesPlayed(self):
         """Keeps track how many games have started.
 
@@ -196,7 +194,6 @@ class BoardClass:
             winner = True
 
         if winner:
-            # print("Player", playersymbol, "wins!")
             return winner
         
         return winner
@@ -226,11 +223,7 @@ class BoardClass:
                     tie = False
         else:
             pass
-        
-        # if tie:
-            # print("Game Over, there's a tie!")
-        # else:
-        #     pass
+     
         
         return tie
 
